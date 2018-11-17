@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:checkableBehavior="single">
+        <item
+            android:title="Dashboard"
+
+            android:id="@+id/dash"
+            >
+        </item>
+        <item
+            android:title="Home"
+            android:id="@+id/hm">
+        </item>
+        <item
+            android:title="Contact"
+            android:id="@+id/cnt">
+        </item>
+        <item
+            android:title="Change Password"
+            android:id="@+id/share">
+        </item>
+    </group>
+
+
+</menu>

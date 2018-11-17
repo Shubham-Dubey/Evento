@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "477971643772",
+    "firebase_url": "https://capisto-9a1d9.firebaseio.com",
+    "project_id": "capisto-9a1d9",
+    "storage_bucket": "capisto-9a1d9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:477971643772:android:f87da2bc35480e2a",
+        "android_client_info": {
+          "package_name": "com.example.ankit.capisto"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "477971643772-63egibkkhia2f604vf02k4tvapa6eru1.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.ankit.capisto",
+            "certificate_hash": "397b0809758a29ed9cb85242daddba25a66b87d1"
+          }
+        },
+        {
+          "client_id": "477971643772-eflucrnb2utq6t89cd2jhv21rt6562qe.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9CoyvWdRvvwE3dsNOs4ZcmiK8eD_eBdg"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "477971643772-eflucrnb2utq6t89cd2jhv21rt6562qe.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

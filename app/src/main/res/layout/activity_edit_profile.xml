@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/mygradient"
+    tools:context=".EditProfileActivity">
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:hint=" Mobile Number"
+        android:layout_height="wrap_content"
+        android:textColor="#ffffff"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/squaredbg"
+        android:id="@+id/ed_phone">
+
+        <android.support.design.widget.TextInputEditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#ffffff"
+            android:drawableLeft="@drawable/icon_call"
+            android:maxLength="10"
+            android:ems="10"
+            android:inputType="number"/>
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed_course"
+        android:layout_width="match_parent"
+        android:hint=" Course"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/squaredbg"
+        android:layout_below="@+id/ed_phone">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/newicon_course"
+            android:ems="10"
+            android:inputType="textCapSentences"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed_addres"
+        android:layout_width="match_parent"
+        android:hint=" Address"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/squaredbg"
+        android:layout_below="@+id/ed_course">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/newicon_address"
+            android:ems="10"
+            android:inputType="textCapSentences"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_marginTop="10dp"
+        android:id="@+id/ed_linked"
+        android:layout_width="match_parent"
+        android:hint=" LinkedIn"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColorHint="#ffffff"
+        android:background="@drawable/squaredbg"
+        android:layout_below="@+id/ed_addres">
+
+
+        <android.support.design.widget.TextInputEditText
+            android:textColor="#ffffff"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/newicon_linkedin"
+            android:ems="10"
+            android:inputType="textWebEmailAddress"/>
+
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:textColor="#FFFFFF"
+        android:background="@drawable/squaredbg"
+        android:id="@+id/update"
+        android:text="Update details"
+        android:layout_below="@+id/ed_linked"/>
+
+</RelativeLayout>
